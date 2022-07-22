@@ -1,0 +1,241 @@
+
+/* 스킵 내비게이션
+#skip {position: relative;}
+#skip a {position: absolute; left: 0px; top: -35px; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 140px; text-align: center;}
+#skip a:active,
+#skip a:focus {top: 0;}
+*/
+
+/*layout*/
+#wrap {}
+#header {height: 80px;}
+#nav {height: 30px;}
+#contents {}/*영역표시색(다하면 없애기)*/
+#footer { height: 300px;}/*영역표시색(다하면 없애기)*/
+
+.container {width: 1000px; margin: 0 auto; height: inherit; background: rgba(255,255,255,0.3);}
+   
+/* header */
+.header {}
+.header .header-title { 
+   float: left;
+   width: 200px; 
+   height: 80px;
+   margin-top: 3px; 
+   display: inline-block;
+   }
+.header .header-title img {
+   width: 200px;
+   height: 70px;
+   margin: 0; 
+}
+
+.header .header-menu{
+   text-align: right;
+   margin-top: 10px;
+}
+
+.header .header-menu a{
+   width: 70px; 
+   height: 30px; 
+   display: inline-block; 
+   margin: 10 0px;
+}
+.header .header-menu a.search {
+   background-image: url(/search.png); 
+}
+header .header-menu a.login {
+   background-image: url(/search.png); 
+}
+header .header-menu a.join {
+   background-image: url(/search.png); 
+}
+
+
+
+/* nav */
+.nav {}
+.nav .nav-menu {
+   float: left;
+   text-align: center;
+   width:1000px;
+   height: 30px;
+   
+   }
+.nav .nav-menu .popluar {
+   float: left;
+   display: inline-block;
+   width:100px;
+   height: 28px;
+   margin-top: 1px;
+
+}
+.nav .nav-menu .month {
+   float: left;
+   display: inline-block;
+   width:120px;
+   height: 28px;
+   margin-top: 1px;
+
+}
+.nav .nav-menu .tv {
+   float: left;
+   display: inline-block;
+   width:100px;
+   height: 28px;
+   margin-top: 1px;
+
+   }
+.nav .nav-menu .safe {
+   float: left;
+   display: inline-block;
+   width:120px;
+   height: 28px;
+   margin-top: 1px;
+
+}
+.nav .nav-menu .sitemap {
+   float: left;
+   display: inline-block;
+   width:120px;
+   height: 28px;
+   margin-top: 1px;
+
+}
+.nav .nav-menu .slash{
+   float: left;
+   display: inline-block;
+   width:3px;
+   height: 28px;
+}
+.nav .nav-menu a{
+   text-align: center;
+   text-decoration: none;
+   font-family:  'Gothic A1', sans-serif;
+   margin-top: 4px;
+   font-size: 15px;
+}
+.nav .nav-menu a:hover{
+   text-align: center;
+   text-decoration: none;
+   font-family:  'Gothic A1', sans-serif;
+   margin-top: 4px;
+   font-size: 15px;
+   color: #f1b877;
+   }
+.nav .nav-menu .popluar .nav-under{
+   float: center;
+   width:100px;
+   height: 4px;
+   margin-top: 6px;
+   display: inline-block;
+   background-color: #f1b877;
+   
+}
+
+/*login*/
+.signup {
+   text-align:center;
+   display: inline-block;
+   margin-top: 50px;
+   line-height: 1.42857143;
+   background-color: red;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   width:800px;
+}
+.group {
+	
+	text-align:left;
+	display: inline-block;
+	background-color: #ccc;
+	float: left;
+	width: 
+}
+.form-control {
+   display: inline-block;
+   width: 47%;
+   height: 34px;
+   padding: 2px 12px;
+   margin: 3px;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #555;
+   background-color: #fff;
+   background-image: none;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+.btn {
+   display: inline-block;
+   width: 50%;
+   padding: 6px 12px;
+   margin-top: 10px;
+   font-size: 14px;
+   font-weight: normal;
+   line-height: 1.42857143;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: middle;
+   -ms-touch-action: manipulation;
+       touch-action: manipulation;
+   cursor: pointer;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+
+
+/*CONTENTS*/
+.content1 {}
+.content1 .best {
+   float: center;
+   width:1000px;
+   height: 800px;
+   display: inline-block;
+}
+
+.content1 .best .title {
+   float: center;
+   width: 1000px;
+   height: 50px;
+   margin-top:10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 30px;
+   background-color: yellow;
+   font-family: 'Gentium Book Plus', serif;
+   }
+.content1 .best .contents {
+   float: center;
+   width: 1000px;
+   height: 700px;
+   display: inline-block;
+   background-color: green;
+}
+.content2 {}
+.content2 .f_o_m {
+   float: center;
+   width:1000px;
+   height: 800px;
+   display: inline-block;
+   background-color: red;
+}
+.content2 .f_o_m .title {
+   float: center;
+   width: 1000px;
+   height: 50px;
+   margin-top:10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 40px;
+   background-color: yellow;
+   font-family: 'Gentium Book Plus', serif;
+   }
+   
+/* footer */
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {position: relative; display: inline; padding: 0 5px 0 10px;}

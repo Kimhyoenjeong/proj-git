@@ -1,0 +1,177 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="master">
+  <meta name="description" content="예제">
+  <title>MOREA</title>
+  
+  <!-- CSS STYLE-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+
+<script>
+ 
+    function acyncMovePage(url){
+        // ajax option
+        var ajaxOption = {
+                url : url,
+                async : true,
+                type : "POST",
+                dataType : "html",
+                cache : false
+        };
+        
+        $.ajax(ajaxOption).done(function(data){
+            // Contents 영역 삭제
+            $('#contents-banner').children().remove();
+            // Contents 영역 교체
+            $(#contents-banner').html(data);
+        });
+    }
+ 
+</script>
+</head>
+
+<body>
+</body>
+  <div id="wrap">
+    <div id="header">
+      <div class="container">
+	      <div class="header">
+	        <div class="header-title">
+	        	<img alt="html" src="title.png" href="#">
+	        </div>
+	        <!-- header-title-->
+	        <div class="header-menu">
+	        	<a href="#" class="search"><span class="ir_pm">search</span></a>
+	        	<a href="#" class="login">로그인</a>
+	        	<a href="#" class="join">회원가입</span></a>
+	        </div>
+	       </div>
+      </div>
+    </div>
+    <!-- //header -->
+     <div id="nav">
+		<div class="container">
+			<div class="nav">
+				<div class="nav-menu">
+					<div class="popluar">
+						<a href="#">인기</a>
+						<!-- <div class="nav-under"></div> -->
+					</div>
+					<div class="month">
+						<a href="#">이달의 음식</a>
+					</div>
+					<div class="tv">
+						<a href="#">tv</a>
+					</div>
+					<div class="safe">
+						<a href="#">안심식당</a>
+					</div>
+					<div class="sitemap">
+						<a href="#">사이트맵</a>
+					</div>
+				</div>
+				<!-- //nav-menu -->
+			</div>
+		</div>
+
+     </div>
+     <!-- //nav -->
+    <div id="contents">
+	    <div id="content1">
+	    	<div class="container">
+	    	<div class="content1">
+	            <div class="best">
+	            	<div class="best-title">
+	            		<a href="#">BEST RECIPES</a>
+	            	</div>
+	            	<div class="best-contents">
+		            			
+	            	</div>
+	            </div>
+	         </div>
+	         </div>
+	    </div>
+        <!-- //content1 - best recipes -->
+        <div id="content2">
+            <div class="container">
+            	<div class="content2">
+            		<div class="f_o_m">
+            			<div class="f_o_m-title">
+            				<a href="#">FOOD OF THE MONTH</a>
+            			</div>
+            			<div class="f_o_m-contents">
+	            			
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!-- //content2 - FOOD OF THE MONTH -->
+        <div id="content3">
+            <div class="container">
+            	<div class="content3">
+            		<div class="videos">
+            			<div class="videos-title">
+            				<a href="#">POPLUAR VIDEOS</a>
+            			</div>
+            			<div class="videos-contents">
+	            			
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!-- //content3 - POPLUAR VIDEOS -->
+        <div id="content4">
+            <div class="container">   	
+            	<div class="content4">
+            		<div class="safe_place">
+            			<div class="safe_place-title">
+            				<a href="#">SAFE PLACES</a>
+            			</div>
+            			<div class="safe_place-contents">
+	            			
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+		<!-- //content4 - SAFE PLACES -->
+            
+    </div>
+    <!-- //footer -->
+    <div id="footer">
+    	<hr>
+    	<div class="container">
+            <div class="footer">
+            	<div class="info">
+            	
+            	<ul>
+            			<li><a href="#">사이트 도움말</a></li>
+                        <li><a href="#">사이트 이용약관</a></li>
+                        <li><a href="#">사이트 운영규칙</a></li>
+                        <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                        <li><a href="#">책임의 한계와 법적고지</a></li>
+                        <li><a href="#">게시중단요청 서비스</a></li>
+                        <li><a href="#">고객센터</a></li>
+            		</ul>  
+            	</div>
+            	<div class="maker">
+            		       	
+            	</div>
+            </div>
+        </div>
+    </div>
+	<!-- //footer -->
+  </div>
+    <!-- //wrap -->
+</body>
+</html>
