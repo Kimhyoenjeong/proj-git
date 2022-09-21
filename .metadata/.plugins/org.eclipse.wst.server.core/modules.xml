@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:jimin" serverId="Tomcat v10.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:video" serverId="apache-tomcat-10.0.13 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:sample" serverId="apache-tomcat-10.0.13 at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:morae" serverId="apache-tomcat-10.0.13 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:morae" serverId="Tomcat v10.0 Server at localhost"/>
 </modules>

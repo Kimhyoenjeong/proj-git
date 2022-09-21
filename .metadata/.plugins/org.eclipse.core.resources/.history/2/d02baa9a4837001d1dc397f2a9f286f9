@@ -1,0 +1,88 @@
+#contents-banner {}
+.content2-month .month-title {
+	width: 80%;
+	height: 80px;
+	margin-top:100px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 23px;
+	margin-top: 100px;
+}
+#back{
+	
+}
+
+.content2-month .month-title a {
+	font-family: 'Abril Fatface', cursive;
+	color: #000000;
+	letter-spacing: 6px;
+}
+.content2-month .month-title-info {
+	width: 50%;
+	height: 50px;
+	margin-top:20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:19px;
+	
+}
+
+.content2-month .month-title-info a {
+	font-family: 'Song Myung', serif;
+	color: #000000;
+	letter-spacing: -0.3px;
+	
+}
+
+.caloriesinfo {
+	height: 300px;
+}
+.monthfood{}
+.monthfood-title {
+	float: center;
+	font-size: 30px;
+	margin-top: 100px;
+	display: inline-block;
+	text-align: center;
+	
+}
+.monthfood-title h2{
+	font-family:  'Gothic A1', sans-serif;
+	color: #000000;
+	letter-spacing: 6px;
+}
+.monthfood-title h3{
+	font-family:  'Song Myung', serif;
+	color: #000000;
+	letter-spacing: 6px;
+	text-align: center;
+	
+}
+.monthfood-title a{
+	font-family:  'Gothic A1', sans-serif;
+	color: #000000;
+	letter-spacing: 6px;
+}
+.monthfood-fdinfo-1 {
+	width: 80%;
+	height: 700px;
+	margin-top:20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:17px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+.monthfood-fdinfo-2 {
+	width: 80%;
+	height: 500px;
+	margin-top:20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size:17px;
+	border: 1px solid blue;
+}

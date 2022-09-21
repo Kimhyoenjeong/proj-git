@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모두의 레시피</title>
+    <link rel="stylesheet" href="css/hotplace.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+ 
+    
+
+</script>
+</head>
+<body>
+    <div id="back_img"></div>
+    <header>
+        <h1 id="header">지역을 선택하세요&nbsp&nbsp</h1>
+    </header>
+    <main>
+        <section id="region_info">
+            <article id="region_info_map">
+                <canvas id="canvas_komap"></canvas>
+            </article>
+            <article id="region_info_typo">
+                <div id="region_info_typo_sene">
+                    <div id="typoBox1" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele">서</div>
+                    </div>
+                    <div id="typoBox2" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele">울</div>
+                    </div>
+                    <div id="typoBox3" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele">특</div>
+                    </div>
+                    <div id="typoBox4" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele">별</div>
+                    </div>
+                    <div id="typoBox5" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele">시</div>
+                    </div>
+                    <div id="typoBox6" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele"></div>
+                    </div>
+                    <div id="typoBox7" class="region_info_typo_sene_face">
+                        <div class="region_info_typo_sene_face_front typo_ele"></div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <article id="video_list">
+            <div id="video_list_box" class="pop_up_box">
+                <div id = "video_window">
+                    <div id="cover">
+                        <iframe id = "video_window_ifram" width = "456px" height="262"  name="videoWindow"></iframe> 
+                    </div>
+                </div>
+                <div class="video_list">
+                    <div id="scroll">
+                        <div id="infomation"></div>
+                        <div id="video_list_for_clone" class="video_list_each">
+                            <a target="videoWindow" href="none" class="video_list_each_a">
+                                <div id="thumb_nail">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="video_list_each_info">
+                                    <p href="none" class="video_list_each_view">1.2만회</p>
+                                    <p href="none" class="video_list_each_title">여기에 제목 여기에 제목 여기에 제목 여기에 제목 여기에</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../fonts/NotoSans/NotoSans-Black.eot');												/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Black.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Black.woff') format("woff")								/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Black.otf') format("opentype");							/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Black.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Black.svg') format("svg")								*** Legacy iOS & old mobile Browser */
+	}
+	/* Noto Sans CJK kr - Bold */
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../../fonts/NotoSans/NotoSans-Bold.eot');												/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Bold.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Bold.woff') format("woff")								/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Bold.otf') format("opentype");							/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Bold.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Bold.svg') format("svg")									*** Legacy iOS & old mobile Browser */
+	}
+	/* Noto Sans CJK kr - Medium */
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../../fonts/NotoSans/NotoSans-Medium.eot');											/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Medium.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Medium.woff') format("woff")								/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Medium.otf') format("opentype");							/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Medium.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Medium.svg') format("svg")								*** Legacy iOS & old mobile Browser */
+	}
+	/* Noto Sans CJK kr - Regular */
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../fonts/NotoSans/NotoSans-Regular.eot');											/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Regular.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Regular.woff') format("woff")							/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Regular.otf') format("opentype");						/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Regular.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Regular.svg') format("svg")								*** Legacy iOS & old mobile Browser */
+	}
+	/* Noto Sans CJK kr - Light */
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../fonts/NotoSans/NotoSans-Light.eot');												/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Light.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Light.woff') format("woff")								/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Light.otf') format("opentype");							/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Light.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Light.svg') format("svg")								*** Legacy iOS & old mobile Browser */
+	}
+	/* Noto Sans CJK kr - Thin */
+	@font-face{
+	font-family:'Noto Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../../fonts/NotoSans/NotoSans-Thin.eot');												/* IE compatibility mode */
+	src: local('☺')
+		,url('../../fonts/NotoSans/NotoSans-Thin.eot?#iefix') format("embedded-opentype")			/* IE6-IE8 */
+		,url('../../fonts/NotoSans/NotoSans-Thin.woff') format("woff")								/* Most Browsers */
+		,url('../../fonts/NotoSans/NotoSans-Thin.otf') format("opentype");							/* Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Thin.ttf') format("truetype")							*** Legacy Browsers // Android, iOS */
+/*		,url('../../fonts/NotoSans/NotoSans-Thin.svg') format("svg")									*** Legacy iOS & old mobile Browser */
+	}
+
+
+/* YiSunShinDotum font embeding set ------------------------------------------------------------------------------ */
+	/* YiSunShinDotum - Black */
+
+	@font-face {font-family: 'YiSunShinDotumB';   src: url('../../fonts/portal/이순신돋움체B_1.woff') format('woff'); font-weight: 700; font-style: normal;}
+	@font-face {font-family: 'YiSunShinDotumM';   src: url('../../fonts/portal/이순신돋움체M_1.woff') format('woff'); font-weight: 500; font-style: normal;}
+	@font-face {font-family: 'YiSunShinDotumL';   src: url('../../fonts/portal/이순신돋움체L_1.woff') format('woff'); font-weight: 300; font-style: normal;}
+	@font-face {font-family: 'Montserrat-Medium'; src: url('../../fonts/portal/Montserrat-Medium.woff') format('woff'); font-weight: normal; font-style: normal;}
+	
+
+/* 폰트 두께 설정 */
+/* Thin 100 Light 300 Regular 400  Medium 500  Bold 700  Black 900  */
+
+
+/* 디지털 대시보드 */
+        /* Reset */
+        * {outline: 0 !important; margin: 0; padding: 0;}
+
+        html, body {width: 100%;}
+
+        ul, ol, li {list-style: none;}
+
+        img, fieldset {border: 0;}
+
+        label, img, input, select, textarea, button {vertical-align: middle;}
+
+        div, span {box-sizing: border-box;}
+
+        select {width: 140px; height: 30px;}
+
+        body {
+            font-family: 'Noto Sans KR', serif;
+        }
+
+        a {text-decoration: none; color: inherit;}
+
+        .row::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .cell {float: left; box-sizing: border-box;}
+
+        .cell-right {float: right;}
+
+/* Layout */
+        #wrap {width: 940px; margin: 0 auto;}
+
+        #header {height: 50px; position: relative; z-index: -10;}
+        #header .title {font-size: 24px; text-align: center; font-weight: 800; height: 50px; line-height: 50px; margin: 0 auto;}
+        #header .logo {height: 50px; display: inline-block; position: absolute; right: 70px; top: 0;}
+        #header .logo img {height: 50px;}
+
+        .top {margin-top: 30px; border-bottom: 1px solid rgb(199, 199, 199); height: 40px;}
+        .top .tit {font-size: 20px; font-weight: 800; margin: 0 20px;}
+
+        .a-selectbox {width: 140px; height: 30px; position: relative;}
+        .a-selectbox:hover {border-color: #77889a;}
+        .a-value {width: 100%; height: 100%; padding: 0 40px 0 12px; border-radius: 2px; border: 1px solid #dadada; background: #fff; text-align: left; cursor: pointer;}
+        .a-value span {font-size: 14px; font-weight: 400; color: #606974; float: left;}
+        .ico-arrow {position: absolute; right: 10px; transition: all .5s;}
+        .up-down {transform: rotate(180deg);}
+        .a-list {display: none; position: absolute; overflow-y: scroll; width: 99%; height: 200px; margin-top: 2px; padding: 14px 0; border: 1px solid #cecece; border-radius: 2px; background: #fff; z-index: 100;}
+        .a-list > li {cursor: pointer; height: 30px; line-height: 30px; padding-left: 10px; font-size: 14px; font-weight: 400; color: #606974;}
+        .a-list > li > a {text-decoration: none;}
+        .a-list > li:hover {color: #005acd; background: #f7f9fc;}
+        .select-open {border: 1px solid #4daeff; box-shadow: 0 0 4px rgba(77,174,255,.4);}
+
+        .info {margin: 10px 0;}
+        .info__box {border: 1px solid rgb(238, 238, 238); height: 150px; padding: 0 10px;}
+        .info1 {width: 220px;}
+        .info2 {width: 310px; margin: 0 20px;}
+        .info3 {width: 370px;}
+        .info__box .info__tit .tit {font-size: 20px; font-weight: 800; margin: 18px 0;}
+        .info__box .info__tit span {font-size: 12px; font-weight: 800;}
+        .info__box .info__num p {font-size: 40px; font-weight: 800; text-align: center; padding: 20px;}
+        .info3 {padding: 0 20px;}
+        .info3 .info__tit {text-align: left;}
+        .info__type div p {display: inline-block; text-align: left; width: 100px; margin: 5px 0; font-weight: 800; font-size: 16px;}
+        .info__type span {text-align-last: right; display: inline-block; padding-left: 5px; font-weight: 800; font-size: 16px;}
+        .info__left {width: 50%;}
+        .info__right {width: 50%;}
+
+        #contents {padding-top: 5px;}
+        .cont__wrap {margin: 10px 0;}
+        .cont__left {width: 460px; margin-right: 10px;}
+        .cont__right {width: 100%; height: 280px; border: 1px solid rgb(238, 238, 238);}
+        .c__tit {font-weight: 800; margin: 10px 0; font-size: 16px;}
+        .c__con {margin-bottom: 30px; font-size: 16px; line-height: 24px;}
+        .c__list {margin-top: -20px; margin-bottom: 30px; padding-left: 0;}
+        .c__list li {list-style: none; padding: 2px 0;}
+        .c__last {margin-top: -30px;}
+        
+        /* body */
+/*         *, *:before, *:after {box-sizing:border-box;} */
+/*         html, body {width:100%; height:100%;} */
+/*         body, body * {font-family:'Noto Sans KR', 'NanumSquare', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif; font-size:14px; color:#000; font-weight:400; line-height:1; word-break:break-all;} */

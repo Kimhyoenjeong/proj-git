@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* ---------------------------------------
+	Filename: dev.css
+	Description : 농식품공공데이터포털
+	Author	: mobigen
+	date	: 2021-12
+	비고 : 개발자용 임시 css입니다.
+   --------------------------------------- */
+
+.copy-text {
+    position:   absolute;
+    top:        0;
+    left:       0;
+    width:      1px;
+    height:     1px;
+    margin:     0;
+    padding:    0;
+    border:     0;
+}
+
+/* 인풋박스 자동완성 선택하는 경우*/
+input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+	 transition: background-color 5000s ease-in-out 0s;
+	 -webkit-transition: background-color 9999s ease-out;
+     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+	}
+
+/* 통합검색 시각화검색에 자동완성에서 방향키로 이동하는 경우*/
+.ui-state-focus {
+	background-color:rgba(0, 0, 0, .03);
+}
+
+/* 통합검색 시각화검색 화면에서만 mu-list 제어하기 위해 추가*/
+.ui-autocomplete{
+	top: unset !important;
+	width: unset !important;
+}
+
+.toolTip {
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    background: none repeat scroll 0 0 white;
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: -3px 3px 15px #888888;
+    color: black;
+    font: 12px sans-serif;
+    padding: 5px;
+    text-align: center;
+    z-index:1;
+    white-space: nowrap;
+}
+
+.mt10 {margin-top:10px !important;}
+/*
+.mu-instant-msg {z-index:100;position:fixed;top:50%;left:50%;display:flex;align-items:center;justify-content:center;}
+*/
